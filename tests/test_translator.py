@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from llm_translator.exceptions import MissingAPIKeyError, NoneAPIKeyProvidedError, InvalidModelName
-from llm_translator.utils.enums import ModelForTranslator
-from llm_translator.translator import Translator, TranslatorOpenAI, TranslatorAzureOpenAI
+from ai_translator.exceptions import MissingAPIKeyError, NoneAPIKeyProvidedError, InvalidModelName
+from ai_translator.utils.enums import ModelForTranslator
+from ai_translator.translator import Translator, TranslatorOpenAI, TranslatorAzureOpenAI
 
 # Test TranslatorOpenAI
 class TestTranslatorOpenAI:
