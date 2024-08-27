@@ -1,4 +1,4 @@
-from ai_translator.utils.enums import ModelForTranslator
+from llm_translate.utils.enums import ModelForTranslator
 
 
 class MissingAPIKeyError(Exception):

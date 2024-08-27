@@ -1,9 +1,9 @@
 import os
-import ai_translator
-from ai_translator.translator import TranslatorOpenAI
+import llm_translate
+from llm_translate.translator import TranslatorOpenAI
 
-from ai_translator.utils.enums import ModelForTranslator
-from ai_translator import translator
+from llm_translate.utils.enums import ModelForTranslator
+from llm_translate import translator
 
 text = """
 Litwo! Ojczyzno moja! ty jesteś jak zdrowie:

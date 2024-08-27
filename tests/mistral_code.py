@@ -1,6 +1,6 @@
 import os
-from ai_translator.translator import TranslatorMistral
-from ai_translator.utils.enums import ModelForTranslator
+from llm_translate.translator import TranslatorMistral
+from llm_translate.utils.enums import ModelForTranslator
 
 text = """
 Gospodarstwo

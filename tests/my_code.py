@@ -1,9 +1,9 @@
 import os
 import re
 
-from ai_translator.translator import TranslatorOpenAI
+from llm_translate.translator import TranslatorOpenAI
 
-from ai_translator.utils.enums import ModelForTranslator
+from llm_translate.utils.enums import ModelForTranslator
 
 #print(os.environ.get("OPENAI_API_KEY"))
 

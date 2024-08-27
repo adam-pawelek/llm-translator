@@ -4,10 +4,10 @@ from openai import AsyncOpenAI
 from pydantic import BaseModel
 from typing import Optional
 from abc import ABC, abstractmethod
-from ai_translator.exceptions import MissingAPIKeyError, NoneAPIKeyProvidedError, InvalidModelName
-from ai_translator.utils.enums import ModelForTranslator
-from ai_translator.utils.iso639_1 import iso_639_1_codes
-from ai_translator.utils.text_splitter import get_first_n_words, split_text_to_chunks
+from llm_translate.exceptions import MissingAPIKeyError, NoneAPIKeyProvidedError, InvalidModelName
+from llm_translate.utils.enums import ModelForTranslator
+from llm_translate.utils.iso639_1 import iso_639_1_codes
+from llm_translate.utils.text_splitter import get_first_n_words, split_text_to_chunks
 
 CHATGPT_MODEL_NAME = ModelForTranslator.BEST_BIG_MODEL
 global_client = None
